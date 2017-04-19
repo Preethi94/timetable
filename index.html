@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+        <title>Attendance Portal | MEC</title>
+
+        <!-- CSS  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300' rel='stylesheet' type='text/css'>
+        <link href="css/dashb.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/leader.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        
+    </head>
+    <body>
+    
+        <nav class="white" style="height:60px;position:fixed;z-index:5000;" role="navigation">
+                <a href="#" id="logo2"><img src="img/mec_logo.png"></a>
+                <div class="nav-wrapper">
+                    <!--a id="logo-container" style="margin-left:4%;" href="#" class="brand-logo black-text">MEC Attendance Portal</a-->
+                    <ul id="main_list" class="right hide-on-med-and-down">
+                        <li style=""><a id="reg" href="#" class="waves-effect waves-light btn">Log out</a></li>
+                        <li>
+                            <a href="#" style="" class="black-text">
+                                <img id="user-img" class="circle responsive-img" src="img/user.jpg">
+                                <p style="float:right;margin-top:-1px;">Balu Menon</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    </nav>
+    <nav class="" style="top:60px;height:50px;position:fixed;z-index:5000;background-color:#443742;" role="navigation">
+        <div class="nav-wrapper">
+            <ul class="right hide-on-med-and-down" id="right-tabs" style="display:block;padding-left:50px;">
+                <li>
+                    <a href="#" class="no-hover tooltipped" data-position="bottom" data-delay="50" data-tooltip="Refresh">
+                        <i class="mdi-navigation-refresh"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="no-hover tooltipped" data-position="bottom" data-delay="50" data-tooltip="More" id="right-menu" href="#right-menu">
+                        <i class="mdi-navigation-more-vert"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav fixed" style="top:60px;">
+                <li><a href="#">DashBoard</a></li>
+                <li><a href="#">Add Branch</a></li>
+                <li class="active"><a href="#">Add Class</a></li>
+                <li><a href="#">Add Subject</a></li>
+                <li><a href="#">Assign Subject to Class</a></li>
+                <li><a href="#">View Teachers</a></li>
+                <li><a class="modal-trigger" href="#">Report Bug</a></li>
+                
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse" style="display:block;padding-left:50px;margin-top:-5px;">
+                <i class="mdi-navigation-menu"></i>
+            </a>
+            <!--a href="#!" style="margin-top:-15px;">First</a-->
+        </div>
+    </nav>
+    <main style="padding-left: 240px;"> 
+      <div class="container" style="Padding-top:150px;">
+        <div class="section">
+            <div class="row isotope">
+                <div class="col s12 m12 l12">
+                    <div class="card">
+                        <div class="card-content">
+                        <div class="input-field">
+                        <form action="#" method="post"> 
+                        <select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select><select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select><select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select><select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select><select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select><select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select><select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select><select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select><select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select><select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+        <input type="submit" value="Add">
+                           </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <?php for($i=0;$i<6;$i++){ ?>
+
+    <div class="row">
+
+     <?php for($j=0;$j<=6;$j++){ ?>
+      <div class="col s2">This div is 2-columns wide</div>
+     <?php } ?>
+    </div>
+
+   <?php } ?>
+    
+
+
+    
+          
+    
+  </main>  
+        
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+        <script type='text/javascript' src='js/isotope.min.js'></script>
+        <script type='text/javascript' src='js/packery-mode.pkgd.min.js'></script>
+        <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.nicescroll/3.6.0/jquery.nicescroll.min.js"></script>
+        <script>
+            $(document).ready( function() {  
+                $('.isotope').isotope({
+                    layoutMode: 'packery',
+                    itemSelector: '.col',
+                    packery: {
+                        gutter: 0
+                    }
+                });
+                $("body").niceScroll({
+                    scrollspeed: 75,
+                    mousescrollstep: 40,
+                    zindex: 5000,
+                    hidecursordelay: 400,
+                    cursoropacitymin: 0.4,
+                    cursoropacitymax: 0.9,
+                    cursorwidth: "7px",
+                    cursorborderradius: "3px",
+                    horizrailenabled: false
+                });
+            });
+        </script>
+    </body>
+</html>

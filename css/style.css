@@ -1,0 +1,180 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+
+body {
+    background: #443742;
+    background-size: 110% 1800%;
+    font-family: 'Oxygen', sans-serif; 
+    font-weight: 300; 
+}
+
+.heading-divider {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #f65a5b;
+    margin: 15px auto;
+}
+
+#main_list li{
+    padding-left: 35px;
+    padding-right: 35px;
+    border-left: 1px solid #e6e7e8;
+}
+
+#main_list li:hover {
+    background-color: transparent;
+}
+
+#reg {
+    border-radius: 0;
+    background: #f65a5b;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#reg:hover {
+    background: #f65a5b;
+}
+
+.blink {
+    -webkit-animation: blink 1.5s infinite;
+    animation: blink 1.5s infinite
+}
+
+@-webkit-keyframes blink {
+    0 {
+        opacity: 0
+    }
+    40% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    90% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+@keyframes blink {
+    0 {
+        opacity: 0
+    }
+    40% {
+        opacity: 0
+    }
+    50% {
+        opacity: 1
+    }
+    90% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+#logo1 img{
+    float: left;
+    width: 175px;
+    padding-left: 35px;
+}
+
+#logo2 img{
+    
+    float: left;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 2.5px;
+}
+
+#take {
+    background: #f65a5b;
+}
+
+
+input[type=email], input[type=password], input[type=number]  {
+    background-color: #fff;
+    border: 0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #1db5ab;
+    height: 46px;
+    outline: none;
+    padding-left: 15px;
+    width: 50%;
+}
+
+#name {
+    background-color: #fff;
+    border: 0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #1db5ab;
+    height: 46px;
+    outline: none;
+    padding-left: 15px;
+    width: 50%;
+}
+    
+
+input[type=submit] {
+    background-color: #f65a5b;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    font-size: .9em;
+    font-weight: bold;
+    height: 46px;
+    margin-left: 1%;
+    outline: none;
+    position: relative;
+    text-transform: uppercase;
+    top: -1px;
+    width: 22%;
+}
+
+#forgot {
+    margin-left: 10px;
+    font-size: .9em;
+    font-weight: bold;
+    height: 46px;
+    top: -1.5px;
+    border: 0;
+    border-radius: 3px;
+    color: #f65a5b;
+    min-width: 22%;
+    line-height: 47px;
+}
+
+.select-wrapper1 {
+    background-color: #fff;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    margin-top: -1.5%;
+    border: 0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #1db5ab;
+    height: 46px;
+    outline: none;
+    padding-left: 15px;
+    width: 50%;
+    position: relative;
+}
+
+.width100 {
+    width: 100%;
+}
